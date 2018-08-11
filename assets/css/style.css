@@ -65,7 +65,7 @@ body {
   
   #logo {
     float: left;
-    width: 250px;
+    width: 300px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -139,7 +139,7 @@ body {
   .work {
     position: relative;
     float: left;
-    width: 274px;
+    width: 250px;
     margin: 20px 0 25px;
     overflow: auto;
   }
@@ -149,7 +149,8 @@ body {
   }
   
   .work img {
-    width: 100%;
+    width: 250px;
+    height:250px;
     border: 0 none;
     opacity: 0.8;
   }
@@ -157,7 +158,7 @@ body {
   .work h3 {
     position: absolute;
     bottom: 20px;
-    width: 100%;
+    width: 250px;
     padding: 15px;
     margin-bottom: 0;
     font-weight: 300;
@@ -170,8 +171,8 @@ body {
   
   .auth-image {
     float: left;
-    width: 200px;
-    height: auto;
+    width: 30%;
+    height: 30%;
     margin-top: 10px;
     margin-right: 25px;
   }
@@ -184,6 +185,7 @@ body {
   
   #contact-form li {
     margin-bottom: 10px;
+    list-style: none;
   }
   
   label,
@@ -215,4 +217,79 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
+
+#logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+
+nav a:hover {
+  color: #5e7f7e;
+}
+
+@media screen and (max-width: 980px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+
+    #logo {
+        margin-left: 5%;
+    }
+
+    nav {
+        margin-right: 5%;
+    }
+
+    #main-container {
+        width: 70%;
+        float: left;
+        margin-left: 5%;
+    }
+
+    .main-section {
+        padding-top: 20px;
+    }
+
+    #contact-form {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 748px;
+    }
+
+    #masthead {
+        max-width: 748px;
+        
+    }
+
+    .main-section {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin-right: 20px;
+    }
+
+    a {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+}
