@@ -313,15 +313,9 @@ nav a:hover {
     .auth-image {
         clear: both;
         width: 100%;
-        style: block;
         margin-bottom: 20px;
     }
 
-    p {
-        style: block;
-    }
-
-    
     .work {
         width: 100%;
         text-align: center;
