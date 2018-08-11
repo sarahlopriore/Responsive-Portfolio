@@ -230,7 +230,7 @@ nav a:hover {
 @media screen and (max-width: 980px) {
 
     body {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .container {
@@ -263,30 +263,25 @@ nav a:hover {
 @media screen and (max-width: 768px) {
 
     body {
-        font-size: 14px;
-    }
-
-    .container {
-        max-width: 748px;
-    }
-
-    #masthead {
-        max-width: 748px;
-        
+        font-size: 15px;
     }
 
     .main-section {
-        font-size: 16px;
         line-height: 30px;
     }
 
-    nav a {
-        display: block;
-        margin-right: 20px;
+    #main-container {
+        width: 96%;
+        margin-left: 2%;
     }
 
-    a {
-        padding-top: 10px;
+    .auth-image {
+        height: 50%;
+        width: 50%;
+    }
+
+    input[type=submit] {
+        margin-left: 6%;
     }
 }
 
