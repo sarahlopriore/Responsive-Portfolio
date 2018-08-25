@@ -141,6 +141,7 @@ body {
     float: left;
     width: 250px;
     margin: 20px 0 25px;
+    margin-right: 50px;
     overflow: auto;
   }
   
